@@ -1,0 +1,11 @@
+framework module StreamingTagSwift_tvOS {
+  umbrella header "StreamingTagSwift_tvOS.h"
+
+  export *
+  module * { export * }
+}
+
+module StreamingTagSwift_tvOS.Swift {
+    header "StreamingTagSwift_tvOS-Swift.h"
+    requires objc
+}
