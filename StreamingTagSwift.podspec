@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StreamingTagSwift'
-  s.version          = '6.0.0'
+  s.version          = '6.0.0-tvOS'
   s.summary          = 'eStat iOS swift SDK'
   #s.swift_version    = '4'
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,7 @@ Pod::Spec.new do |s|
 
 
   s.ios.deployment_target = '10.2'
+  s.tvos.deployment_target = '9.0'
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
