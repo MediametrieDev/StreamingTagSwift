@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		ZmmDFRpf3QNF6tfUEnREYo1cC2c=
+		unhJI6iH4fC+hLcz4ZzABIK+bxs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -43,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lPYTNGMuVM0xcrIis3CbtZmYZw7j58AlH/H6PqSx7NA=
+			7j243QBSEKVWFmK8rYqZdTM0pMARcNv4qhE2GMBc4VE=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64.swiftdoc</key>
@@ -64,7 +64,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lPYTNGMuVM0xcrIis3CbtZmYZw7j58AlH/H6PqSx7NA=
+			7j243QBSEKVWFmK8rYqZdTM0pMARcNv4qhE2GMBc4VE=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4TNNLXPdADugcms9GBkQwbjH1lzYflfR7uoLGrZVXR0=
+			2Yz4ofi7JPlVO94PzDk8BeQvegUszHqqH72TkJpxYSY=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64.swiftdoc</key>
@@ -106,7 +106,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4TNNLXPdADugcms9GBkQwbjH1lzYflfR7uoLGrZVXR0=
+			2Yz4ofi7JPlVO94PzDk8BeQvegUszHqqH72TkJpxYSY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ELh24Lr8rSsXqkNSp7551VLa/ho6uAns/5fdfZCSyW0=
+			A00wABaQfxL+cjCD5jpAuxtaXgTyHp3uwWFdLN0dpYI=
 			</data>
 		</dict>
 	</dict>
