@@ -1,19 +1,19 @@
 //
-//  StreamingTagSwift_tvOS.h
-//  StreamingTagSwift_tvOS
+//  StreamingTagSwift.h
+//  StreamingTagSwift
 //
-//  Created by Adminlocal on 23/02/2021.
-//  Copyright © 2021 Adminlocal. All rights reserved.
+//  Created by Adminlocal on 03/04/2020.
+//  Copyright © 2020 Adminlocal. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for StreamingTagSwift_tvOS.
-FOUNDATION_EXPORT double StreamingTagSwift_tvOSVersionNumber;
+//! Project version number for StreamingTagSwift.
+FOUNDATION_EXPORT double StreamingTagSwiftVersionNumber;
 
-//! Project version string for StreamingTagSwift_tvOS.
-FOUNDATION_EXPORT const unsigned char StreamingTagSwift_tvOSVersionString[];
+//! Project version string for StreamingTagSwift.
+FOUNDATION_EXPORT const unsigned char StreamingTagSwiftVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <StreamingTagSwift_tvOS/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <StreamingTagSwift/PublicHeader.h>
 
 

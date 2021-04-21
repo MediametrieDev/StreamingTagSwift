@@ -1,8 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target arm64-apple-ios10.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name StreamingTagSwift
-import AdSupport
-import AppTrackingTransparency
 import Foundation
 import Security
 @_exported import StreamingTagSwift
@@ -35,6 +33,12 @@ public enum AuthResponseType : Swift.String, Swift.Codable {
   public var rawValue: Swift.String {
     get
   }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReplayStreamingTagger : StreamingTagSwift.StreamingTagger {
+  public func notifyEvent(eventState: StreamingTagSwift.EventState)
+  public func notifyEvent(eventState: StreamingTagSwift.EventState, position: Swift.Int)
+  public func setMediaLength(mediaLength: Swift.Int) -> Self
+  @objc deinit
 }
 public enum ConsentType : Swift.String, Swift.Codable {
   case optout
@@ -85,9 +89,8 @@ public enum Implementation : Swift.String, Swift.Codable {
     get
   }
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ManualStreamingTagger : StreamingTagSwift.StreamingTagger {
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LiveStreamingTagger : StreamingTagSwift.StreamingTagger {
   public func notifyEvent(eventState: StreamingTagSwift.EventState)
-  public func notifyEvent(eventState: StreamingTagSwift.EventState, position: Swift.Int)
   @objc deinit
 }
 public enum EventType : Swift.String, Swift.Codable {
@@ -100,8 +103,9 @@ public enum EventType : Swift.String, Swift.Codable {
   }
 }
 @_inheritsConvenienceInitializers @objc public class Tag : ObjectiveC.NSObject {
-  @objc public init(enableUserID: Swift.Bool = false, enableDeviceID: Swift.Bool = false)
+  @objc public init(enableUserID: Swift.Bool = false, deviceID: Swift.String?)
   @objc convenience override dynamic public init()
+  @objc convenience public init(enableUserID: Swift.Bool = false)
   public static func getVersion() -> Swift.String
   public static func getTagName() -> Swift.String
   public func liveStreamingTaggerBuilder() -> StreamingTagSwift.LiveStreamingTaggerBuilder
@@ -110,8 +114,16 @@ public enum EventType : Swift.String, Swift.Codable {
   public func replayProbeStreamingTaggerBuilder() -> StreamingTagSwift.ReplayProbeStreamingTaggerBuilder
   @objc deinit
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LiveProbeStreamingTagger : StreamingTagSwift.StreamingTagger {
+  public func stop()
+  public func disable()
+  public func snooze()
+  public func wakeup()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LiveStreamingTaggerBuilder : StreamingTagSwift.StreamingTaggerBuilder {
   public func withTimeshiftingEnabled() -> Self
+  public func build() throws -> StreamingTagSwift.LiveStreamingTagger
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class StreamingTaggerBuilder {
@@ -120,9 +132,8 @@ public enum EventType : Swift.String, Swift.Codable {
   public func withStreamName(streamName: Swift.String) -> Self
   public func withConsentString(consentString: Swift.String) -> Self
   public func withCast(isCasting: Swift.Bool) -> Self
-  public func withStreamUrl(streamUrl: Swift.String) -> Self
   public func withStreamCategory(streamCategory: Swift.String) -> Self
-  public func withMediaProvider(domain: Swift.String) -> Self
+  public func withMediaProvider(mediaProvider: Swift.String) -> Self
   public func withLevel1(level1: Swift.String) -> Self
   public func withLevel2(level2: Swift.String) -> Self
   public func withLevel3(level3: Swift.String) -> Self
@@ -144,22 +155,13 @@ public enum EventType : Swift.String, Swift.Codable {
   public func withMediaContentId(mediaContentId: Swift.String) -> Self
   public func withMediaDiffMode(mediaDiffMode: Swift.String) -> Self
   public func withMediaChannel(mediaChannel: Swift.String) -> Self
-  public func withMediaProvider(mediaProvider: Swift.String) -> Self
   public func withNetMeasurement(netMeasurement: Swift.String) -> Self
-  public func build() throws -> StreamingTagSwift.ManualStreamingTagger
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ProbeStreamingTagger : StreamingTagSwift.StreamingTagger {
-  public func stop()
-  public func disable()
-  public func snooze()
-  public func wakeup()
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReplayStreamingTaggerBuilder : StreamingTagSwift.StreamingTaggerBuilder {
   public func withPositionCallback(positionCallback: @escaping () -> Swift.Int) -> Self
   public func withStreamLength(streamLength: Swift.Int) -> Self
-  public func setPositionCallback(positionCallback: (() -> Swift.Int?)?)
+  public func build() throws -> StreamingTagSwift.ReplayStreamingTagger
   @objc deinit
 }
 public enum ReachabilityError : Swift.Error {
@@ -244,7 +246,7 @@ extension eStatReachability {
   }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReplayProbeStreamingTaggerBuilder : StreamingTagSwift.ReplayStreamingTaggerBuilder {
-  public func build() throws -> StreamingTagSwift.ProbeStreamingTagger
+  public func build() throws -> StreamingTagSwift.ReplayProbeStreamingTagger
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class StreamingTagger {
@@ -266,11 +268,18 @@ extension eStatReachability {
   public func setMultiLevel9(multiLevel9: Swift.String) -> Self
   public func setMultiLevel10(multiLevel10: Swift.String) -> Self
   public func setMultiLevel11(multiLevel11: Swift.String) -> Self
-  public func setMediaLength(mediaLength: Swift.Int) -> Self
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LiveProbeStreamingTaggerBuilder : StreamingTagSwift.StreamingTaggerBuilder {
   public func withPlayerStateCallback(playerStateCallback: @escaping () -> StreamingTagSwift.EventState) -> Self
-  public func build() throws -> StreamingTagSwift.ProbeStreamingTagger
+  public func build() throws -> StreamingTagSwift.LiveProbeStreamingTagger
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ReplayProbeStreamingTagger : StreamingTagSwift.StreamingTagger {
+  public func stop()
+  public func disable()
+  public func snooze()
+  public func wakeup()
+  public func setMediaLength(mediaLength: Swift.Int) -> Self
   @objc deinit
 }
 public enum TransmissionType : Swift.String {

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StreamingTagSwift'
-  s.version          = '6.0.1'
+  s.version          = '7.0.0'
   s.summary          = 'eStat iOS swift SDK'
   s.description      = 'Repository for eStat iOS swift framework.'
   s.homepage         = 'https://github.com/MediametrieDev/StreamingTagSwift'
@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
+
 end

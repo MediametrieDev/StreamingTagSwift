@@ -211,8 +211,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC17StreamingTagSwift3Tag")
 @interface Tag : NSObject
-- (nonnull instancetype)initWithEnableUserID:(BOOL)enableUserID enableDeviceID:(BOOL)enableDeviceID OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithEnableUserID:(BOOL)enableUserID deviceID:(NSString * _Nullable)deviceID OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init;
+- (nonnull instancetype)initWithEnableUserID:(BOOL)enableUserID;
 @end
 
 #if __has_attribute(external_source_symbol)
@@ -433,8 +434,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC17StreamingTagSwift3Tag")
 @interface Tag : NSObject
-- (nonnull instancetype)initWithEnableUserID:(BOOL)enableUserID enableDeviceID:(BOOL)enableDeviceID OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithEnableUserID:(BOOL)enableUserID deviceID:(NSString * _Nullable)deviceID OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init;
+- (nonnull instancetype)initWithEnableUserID:(BOOL)enableUserID;
 @end
 
 #if __has_attribute(external_source_symbol)

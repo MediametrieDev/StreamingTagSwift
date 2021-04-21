@@ -8,7 +8,7 @@
 			<key>LibraryIdentifier</key>
 			<string>tvos-arm64</string>
 			<key>LibraryPath</key>
-			<string>StreamingTagSwift_tvOS.framework</string>
+			<string>StreamingTagSwift.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
@@ -18,24 +18,9 @@
 		</dict>
 		<dict>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64_x86_64-maccatalyst</string>
-			<key>LibraryPath</key>
-			<string>StreamingTagSwift.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-				<string>x86_64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>ios</string>
-			<key>SupportedPlatformVariant</key>
-			<string>maccatalyst</string>
-		</dict>
-		<dict>
-			<key>LibraryIdentifier</key>
 			<string>tvos-arm64_x86_64-simulator</string>
 			<key>LibraryPath</key>
-			<string>StreamingTagSwift_tvOS.framework</string>
+			<string>StreamingTagSwift.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
@@ -73,6 +58,21 @@
 			</array>
 			<key>SupportedPlatform</key>
 			<string>ios</string>
+		</dict>
+		<dict>
+			<key>LibraryIdentifier</key>
+			<string>ios-arm64_x86_64-maccatalyst</string>
+			<key>LibraryPath</key>
+			<string>StreamingTagSwift.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+				<string>x86_64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>ios</string>
+			<key>SupportedPlatformVariant</key>
+			<string>maccatalyst</string>
 		</dict>
 	</array>
 	<key>CFBundlePackageType</key>
