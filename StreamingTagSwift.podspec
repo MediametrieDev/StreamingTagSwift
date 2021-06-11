@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name             = 'StreamingTagSwift'
   s.version          = '7.1.0'
   s.summary          = 'eStat iOS swift SDK'
-  s.description      = 'Repository for eStat iOS swift framework.'
+  s.description      = 'Repository for eStat iOS and tvOS swift xcframework.'
   s.homepage         = 'https://github.com/MediametrieDev/StreamingTagSwift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mediametrie' => 'support-mesure@mediametrie.fr' }
