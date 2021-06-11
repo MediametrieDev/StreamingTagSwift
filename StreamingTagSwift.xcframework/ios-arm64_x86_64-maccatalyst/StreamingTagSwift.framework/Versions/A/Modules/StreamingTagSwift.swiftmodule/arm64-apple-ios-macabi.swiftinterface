@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
 // swift-module-flags: -target arm64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name StreamingTagSwift
 import Foundation
 import Security
@@ -11,8 +11,8 @@ public enum StreamingType : Swift.String, Swift.Codable {
   case replay
   case live
   case liveTimeShifting
-  public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
@@ -28,8 +28,8 @@ extension Collection {
 public enum AuthResponseType : Swift.String, Swift.Codable {
   case Generated
   case Provided
-  public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
@@ -44,8 +44,8 @@ public enum ConsentType : Swift.String, Swift.Codable {
   case optout
   case optin
   case exempted
-  public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
@@ -54,8 +54,8 @@ public enum EventState : Swift.Int, Swift.Codable {
   case play
   case pause
   case stop
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -64,8 +64,8 @@ public enum AuthAccess : Swift.String, Swift.Codable {
   case full
   case restricted
   case denied
-  public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
@@ -74,8 +74,8 @@ public enum ReachabilityType : Swift.String {
   case wifi
   case gsm
   case notReachable
-  public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
@@ -83,8 +83,8 @@ public enum ReachabilityType : Swift.String {
 public enum Implementation : Swift.String, Swift.Codable {
   case manual
   case automatic
-  public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
@@ -96,8 +96,8 @@ public enum Implementation : Swift.String, Swift.Codable {
 public enum EventType : Swift.String, Swift.Codable {
   case polling
   case state
-  public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
@@ -179,18 +179,6 @@ extension NSNotification.Name {
 public class eStatReachability {
   public typealias NetworkReachable = (StreamingTagSwift.eStatReachability) -> ()
   public typealias NetworkUnreachable = (StreamingTagSwift.eStatReachability) -> ()
-  @available(*, unavailable, renamed: "Connection")
-  public enum NetworkStatus : Swift.CustomStringConvertible {
-    case notReachable, reachableViaWiFi, reachableViaWWAN
-    public var description: Swift.String {
-      get
-    }
-    public static func == (a: StreamingTagSwift.eStatReachability.NetworkStatus, b: StreamingTagSwift.eStatReachability.NetworkStatus) -> Swift.Bool
-    public var hashValue: Swift.Int {
-      get
-    }
-    public func hash(into hasher: inout Swift.Hasher)
-  }
   public enum Connection : Swift.CustomStringConvertible {
     @available(*, deprecated, renamed: "unavailable")
     case none
@@ -199,10 +187,10 @@ public class eStatReachability {
       get
     }
     public static func == (a: StreamingTagSwift.eStatReachability.Connection, b: StreamingTagSwift.eStatReachability.Connection) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
-    public func hash(into hasher: inout Swift.Hasher)
   }
   public var whenReachable: StreamingTagSwift.eStatReachability.NetworkReachable?
   public var whenUnreachable: StreamingTagSwift.eStatReachability.NetworkUnreachable?
@@ -285,11 +273,11 @@ extension eStatReachability {
 public enum TransmissionType : Swift.String {
   case COMPACT
   case DISCONNECTED
+  public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
-  public init?(rawValue: Swift.String)
 }
 @_hasMissingDesignatedInitializers public class BehaviorBuilder {
   @objc deinit
@@ -318,10 +306,6 @@ extension StreamingTagSwift.Implementation : Swift.RawRepresentable {}
 extension StreamingTagSwift.EventType : Swift.Equatable {}
 extension StreamingTagSwift.EventType : Swift.Hashable {}
 extension StreamingTagSwift.EventType : Swift.RawRepresentable {}
-@available(*, unavailable, renamed: "Connection")
-extension StreamingTagSwift.eStatReachability.NetworkStatus : Swift.Equatable {}
-@available(*, unavailable, renamed: "Connection")
-extension StreamingTagSwift.eStatReachability.NetworkStatus : Swift.Hashable {}
 extension StreamingTagSwift.eStatReachability.Connection : Swift.Equatable {}
 extension StreamingTagSwift.eStatReachability.Connection : Swift.Hashable {}
 extension StreamingTagSwift.TransmissionType : Swift.Equatable {}

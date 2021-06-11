@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		unhJI6iH4fC+hLcz4ZzABIK+bxs=
+		ZgZQrhJlrnqFyeOLEtN7vfrkVes=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,7 +15,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PN50WKkzvTKGNqh21HvvNBQwsocjQz/HXxGNQjRdYvA=
+			bMnFmO0lhIGLbNDbaaNUYWglqzb3z2jPV74+7MlyL20=
 			</data>
 		</dict>
 		<key>Headers/StreamingTagSwift.h</key>
@@ -29,84 +29,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wRl/uJx75r9pB1f0GjKvScbKz8XKAWNz+c/J9rsi/eE=
+			NwlxFP4zvxsd1CQRTjeHXJvn7PF1dpJITD4RkBm0JqE=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DSCQY+AV/BZRqD9Wq1G6/U0TwibY+ezS+9gLZqdosKw=
+			QgifLWitIcLgyBli2GZLgc0b6/RyqXpIl8BPHufa2R4=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iWbQ4IeOGETHgdP24qViN60sSsJr/pff2xaRi2SxT3w=
+			KeHkD5dAPo1xiS82VaqNH9ZFIt+994sKTxI8/E1Jw/w=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wRl/uJx75r9pB1f0GjKvScbKz8XKAWNz+c/J9rsi/eE=
+			NwlxFP4zvxsd1CQRTjeHXJvn7PF1dpJITD4RkBm0JqE=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DSCQY+AV/BZRqD9Wq1G6/U0TwibY+ezS+9gLZqdosKw=
+			QgifLWitIcLgyBli2GZLgc0b6/RyqXpIl8BPHufa2R4=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iWbQ4IeOGETHgdP24qViN60sSsJr/pff2xaRi2SxT3w=
+			KeHkD5dAPo1xiS82VaqNH9ZFIt+994sKTxI8/E1Jw/w=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IO46n81GtuOcxgq0lP84DpqAzPqwvryevXi3lmTVKtc=
+			/K9eJMZFKkYUexMIkZtqwL2pGqK1/mul2Lw01BjmSj4=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nDNwdBHZUG8y7ZjA2LpnGYGHc7/A1if2YByUSd9FU3s=
+			USswRX300604TYkjKg5YiKjW/xQYBUle3qr70Yu8XyY=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			40JJNkLwlK5cTrtlkbccwWUi91+v7riuP7kWs10ckKY=
+			cmfTZG4cWIMPKO1f9a1IRGLQqpQiWsdcmoT03znXP8Y=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IO46n81GtuOcxgq0lP84DpqAzPqwvryevXi3lmTVKtc=
+			/K9eJMZFKkYUexMIkZtqwL2pGqK1/mul2Lw01BjmSj4=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nDNwdBHZUG8y7ZjA2LpnGYGHc7/A1if2YByUSd9FU3s=
+			USswRX300604TYkjKg5YiKjW/xQYBUle3qr70Yu8XyY=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			40JJNkLwlK5cTrtlkbccwWUi91+v7riuP7kWs10ckKY=
+			cmfTZG4cWIMPKO1f9a1IRGLQqpQiWsdcmoT03znXP8Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A00wABaQfxL+cjCD5jpAuxtaXgTyHp3uwWFdLN0dpYI=
+			EaHlFBIbdoeqS1PSQe3lIZmJsufZUIA6GxemDuztBx8=
 			</data>
 		</dict>
 	</dict>

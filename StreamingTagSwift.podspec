@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StreamingTagSwift'
-  s.version          = '7.0.0'
+  s.version          = '7.1.0'
   s.summary          = 'eStat iOS swift SDK'
   s.description      = 'Repository for eStat iOS swift framework.'
   s.homepage         = 'https://github.com/MediametrieDev/StreamingTagSwift'
