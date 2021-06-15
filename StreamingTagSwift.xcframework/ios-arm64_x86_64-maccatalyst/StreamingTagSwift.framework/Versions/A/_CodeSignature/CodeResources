@@ -43,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KeHkD5dAPo1xiS82VaqNH9ZFIt+994sKTxI8/E1Jw/w=
+			6evQCP1eANVJ5b89YeKogCknhrVDAEEJo/YdjqvK5pE=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64.swiftdoc</key>
@@ -64,7 +64,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KeHkD5dAPo1xiS82VaqNH9ZFIt+994sKTxI8/E1Jw/w=
+			6evQCP1eANVJ5b89YeKogCknhrVDAEEJo/YdjqvK5pE=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cmfTZG4cWIMPKO1f9a1IRGLQqpQiWsdcmoT03znXP8Y=
+			82xDM0t1D9dYnCG9VaBrXbsL4j80+9j3ADRUqI6wa4w=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64.swiftdoc</key>
@@ -106,7 +106,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cmfTZG4cWIMPKO1f9a1IRGLQqpQiWsdcmoT03znXP8Y=
+			82xDM0t1D9dYnCG9VaBrXbsL4j80+9j3ADRUqI6wa4w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
