@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target x86_64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name StreamingTagSwift
 import Foundation
 import Security
@@ -7,6 +7,7 @@ import Security
 import Swift
 import SystemConfiguration
 import UIKit
+import _Concurrency
 public enum StreamingType : Swift.String, Swift.Codable {
   case replay
   case live
@@ -17,7 +18,7 @@ public enum StreamingType : Swift.String, Swift.Codable {
     get
   }
 }
-extension Collection {
+extension Swift.Collection {
   public subscript(safe index: Self.Index) -> Self.Iterator.Element? {
     get
   }
@@ -173,7 +174,7 @@ public enum ReachabilityError : Swift.Error {
 }
 @available(*, unavailable, renamed: "Notification.Name.reachabilityChanged")
 public let ReachabilityChangedNotification: Foundation.NSNotification.Name
-extension NSNotification.Name {
+extension Foundation.NSNotification.Name {
   public static let reachabilityChanged: Foundation.Notification.Name
 }
 public class eStatReachability {
@@ -214,7 +215,7 @@ public class eStatReachability {
   convenience public init(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
   @objc deinit
 }
-extension eStatReachability {
+extension StreamingTagSwift.eStatReachability {
   public func startNotifier() throws
   public func stopNotifier()
   @available(*, deprecated, message: "Please use `connection != .none`")
