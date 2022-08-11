@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		68H+8BL99NLe4+3IcDYu1PLr/mA=
+		ZauyamzfrgBFQq8Bp6lxi9itf+s=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,7 +15,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CCDJcGO7VHUSVmNOKqodg2nJKXWVkjIzpLGmsRfI20w=
+			hQ2t6aqwRpV6OGZY8hze5PbxZ+m8Xwq9yr4Dg6pd3Cc=
 			</data>
 		</dict>
 		<key>Headers/StreamingTagSwift.h</key>
@@ -29,42 +29,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ekk7T52ThKfvpb8xSF8Tgj4OsHnepjMF7Xt/fD0I5po=
+			0TAn/xmEo+aUFLhIUqXe5h9Htn1+LO2Gui4DymprhrU=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a9hpCL0aMjOmwaZxR4WcEzI+qUNabyCOCGClnmeP+mQ=
+			3vhC8z9ok3kSE6XEpEapR/pyXcFC90utDM53vwrwuJM=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DwUkbV3rSob7rgdmG+SfeZhOjOquarTeZQBB7qO8eGM=
+			J8QgsmOhFLZe8K77BwcoyFFzVCpIlE614XQzfm0DxOw=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MR7pnGBqUm9rsxz4VNZyje3D8H9lKWhfYhC5KSPm1M0=
+			gV+i/ijKH7S1mHGHq63boWjgdZqA6o2JA1EHa6KqXj4=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7bZqDEAAFkRlb1ahTEWglOhyNoYxrZBV5Gv7gLFQdfI=
+			Po8c6/xnTjaSlsYypTtAMwblwfFm7EhVIA4gzRuxrVU=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vXJdlRRg07mhBSdubaBU2shYorO5Wu/6Ijw2ENp2PNw=
+			1ZY9T8MaLAMMdQZMb36zdUUICkHOgkXyvFbqXmdJUog=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/IK/7k2vR2cbkI661ytp0y77gg6dxXNWeABiuDmGmd4=
+			rVctaOJOrKzx2FtoER4XA9Wd9JrvK6eQugrSmfmxhv0=
 			</data>
 		</dict>
 	</dict>
