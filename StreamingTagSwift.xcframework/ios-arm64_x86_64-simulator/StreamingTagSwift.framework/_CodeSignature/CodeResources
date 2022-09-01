@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5VZhS7uPeH8RSoE6M/hJAlfaaQE=
+		rcT9YWbAX86b/ij9WWBO6WFYXlI=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		R+XN7D7pTfCmI7QaMo13zaVoFBQ=
+		cJliwLlZ4FYJyBQyLMQb5VeswUU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5VZhS7uPeH8RSoE6M/hJAlfaaQE=
+			rcT9YWbAX86b/ij9WWBO6WFYXlI=
 			</data>
 			<key>hash2</key>
 			<data>
-			3e/RjSzybKPiv8p3QZ8KmQO73XnUomHlMUxFrQ/zG1g=
+			IdfeHjX3rdLKQEm37T7M7WSoWTHw6KZ0jbNiHfKzQKE=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -128,11 +128,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R+XN7D7pTfCmI7QaMo13zaVoFBQ=
+			cJliwLlZ4FYJyBQyLMQb5VeswUU=
 			</data>
 			<key>hash2</key>
 			<data>
-			bLQT3BsPJxPntZUwnbZA7K8Wz7g/xR9g+4ecLfYWNfY=
+			MYN9pL21VZxVHK3J7s/5TgzO3c3/N+/Hpqzmptcb8eQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

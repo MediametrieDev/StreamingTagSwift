@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		E2vhw0lafDwqolNm+MkNDKnoK80=
+		BEHQhgyU3X80qd5gSNeTUfrkCw4=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		sEDqXklWYKV2WbovhqSYWSjGXoM=
+		pbGJqqUKju/mwUUkZ44wk5nIPEk=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		84xMuaninZvhHd54MPLhGNXmqcQ=
+		3RpWhOxAf88cDoipYFnKRcW7mZA=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		MDesBaGE7sanPThZvOYrgQNhqvA=
+		Vm/RRrq2Prf09NB89oaCNIZ+DsM=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		Y99s/tUklHahAXuC8tifFj2to9k=
+		lGdqcj9jS1Lwny9LLtUkHfTMdV4=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		yski7wKprQcOuQXxCxk7GbmC/r4=
+		+UvAlfovnW6YWVlwiBWYgbgyk7g=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		wFkp1imh7KhSFnFRO58FYHSXQ9c=
+		wl18SPclJl+eO+2kvSQiau7N0yc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -49,6 +49,10 @@
 	<dict>
 		<key>Headers/StreamingTagSwift-Swift.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			jWFSxd7kYxBCsDWMwamI0JqVPpg=
+			</data>
 			<key>hash2</key>
 			<data>
 			hQ2t6aqwRpV6OGZY8hze5PbxZ+m8Xwq9yr4Dg6pd3Cc=
@@ -56,6 +60,10 @@
 		</dict>
 		<key>Headers/StreamingTagSwift.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			8PaJSPYrouzMAZmR9t/uuYFblLw=
+			</data>
 			<key>hash2</key>
 			<data>
 			w2X9fptxbpILC71u7NwwbWhc9FJqVPPVYqn0fQBCSJo=
@@ -63,48 +71,76 @@
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			pbGJqqUKju/mwUUkZ44wk5nIPEk=
+			</data>
 			<key>hash2</key>
 			<data>
-			7bhnKo+zi4F15JwMlUIl6PYJx1A8f+rjxdDmCC6V0PA=
+			VxB2dqMvKWtf1KQG/UFRs2HGIk289DLmbY19zyMtgQE=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3RpWhOxAf88cDoipYFnKRcW7mZA=
+			</data>
 			<key>hash2</key>
 			<data>
-			NXIqim7ReQVYAKrZm4HkYDWapmMpY52GANdYQW+uA8M=
+			B/4ahuaFcoRk5Q43eEVqK7EUWR802CbUeiJoYoNxlz8=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Vm/RRrq2Prf09NB89oaCNIZ+DsM=
+			</data>
 			<key>hash2</key>
 			<data>
-			0dmXz6PkTYdGzWCPqPUXhXoYpUWnfbJug+Jzfw/jd/M=
+			EXW+vuxWKG6G8KL+BK5W4yLF8a5f3s/jWYOQCiOa9LE=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			lGdqcj9jS1Lwny9LLtUkHfTMdV4=
+			</data>
 			<key>hash2</key>
 			<data>
-			kURY62/ci0FFgoYPbyJvSJbK+MqItzEIf5Tsz+esHN0=
+			CEYgn0H6ZjQsLUsKGZsbD/22oNRVAVbHUgT0c7lGIVY=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			+UvAlfovnW6YWVlwiBWYgbgyk7g=
+			</data>
 			<key>hash2</key>
 			<data>
-			bnPwFgRZg6YRHn6iFJsc6bmaj4t6MJ0Rci2Q26WjxbM=
+			LoyVW175sZBOZaJgmgyRicGOiQMk2qkTuQSl2clFSDM=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			wl18SPclJl+eO+2kvSQiau7N0yc=
+			</data>
 			<key>hash2</key>
 			<data>
-			3mqFL878jex+vr4cd//GhpFpiWdjDKJlYnry4onkwf4=
+			0Uut5A+93+U6TTTVaU2nBY3eIXA/i3TWQTMGl+pTklE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			EwlCv8UJ9BAmJ/65gdDwGqoA7uE=
+			</data>
 			<key>hash2</key>
 			<data>
 			rZ4GrooIC6yglxFFJikTwBoEhL3n3OS2QC8OiRrpenA=

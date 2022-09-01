@@ -14,19 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rSlKoxdIHyFW6kMY2O8yeTTn4Js=
+		IuBA2qwVOfr3lOLypaWs/hVpl9E=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-tvos.swiftdoc</key>
 		<data>
-		SZ+Ct5fkKoKyETyh63mSAz4c8HA=
+		FqUPyiZOuUZAWZscRCAHv1/WVis=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-tvos.swiftinterface</key>
 		<data>
-		+8ioV3G8EQ4h+qamFke1rIzYULw=
+		w6gKva2sE6npEUXpwceWV+9Z7zI=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-tvos.swiftmodule</key>
 		<data>
-		MV9u8lDaoXk6D+v8EU3ztrG5O7o=
+		Hkau4+/wC8OnvNZh3Ll25P/ZinE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -37,6 +37,10 @@
 	<dict>
 		<key>Headers/StreamingTagSwift-Swift.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			2W1SDAcLmiPOd7yypTlDLG+nLfc=
+			</data>
 			<key>hash2</key>
 			<data>
 			n11Ze8ab+7ILbLaaWroVYLlTcDtFTo0ICISuB4v+u60=
@@ -44,6 +48,10 @@
 		</dict>
 		<key>Headers/StreamingTagSwift.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			8PaJSPYrouzMAZmR9t/uuYFblLw=
+			</data>
 			<key>hash2</key>
 			<data>
 			w2X9fptxbpILC71u7NwwbWhc9FJqVPPVYqn0fQBCSJo=
@@ -51,27 +59,43 @@
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-tvos.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			FqUPyiZOuUZAWZscRCAHv1/WVis=
+			</data>
 			<key>hash2</key>
 			<data>
-			dp4Cnh8wZ/pCenH4SNYeof8rryfmvyMXbwuBrqGyOeg=
+			6MO3UF4NVJJ3ooiyJuki+oU6RFiJjWFD6B2sqAm+owY=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-tvos.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			w6gKva2sE6npEUXpwceWV+9Z7zI=
+			</data>
 			<key>hash2</key>
 			<data>
-			bCgJGe8NQMTJLEQ0oVrqJHlBxX0hDIaZUa+aT+AbNUU=
+			5SiNbHdzFU1bg6nUXdhSdabi0tT7RQ9dS3f2VzBg3ik=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-tvos.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Hkau4+/wC8OnvNZh3Ll25P/ZinE=
+			</data>
 			<key>hash2</key>
 			<data>
-			NWbL1VK09ye0mXwDRDTYs0DI87hSKzt6PGFYIw0dR18=
+			f0jU/nOc7URpekqVt7ejUbKUpC31y2JSGf+JIsekCJU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			EwlCv8UJ9BAmJ/65gdDwGqoA7uE=
+			</data>
 			<key>hash2</key>
 			<data>
 			rZ4GrooIC6yglxFFJikTwBoEhL3n3OS2QC8OiRrpenA=
