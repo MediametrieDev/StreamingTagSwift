@@ -6,6 +6,6 @@ framework module StreamingTagSwift {
 }
 
 module StreamingTagSwift.Swift {
-    header "StreamingTagSwift-Swift.h"
-    requires objc
+  header "StreamingTagSwift-Swift.h"
+  requires objc
 }

@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios10.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name StreamingTagSwift
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 import Security
 @_exported import StreamingTagSwift
@@ -8,6 +9,7 @@ import Swift
 import SystemConfiguration
 import UIKit
 import _Concurrency
+import _StringProcessing
 public enum StreamingType : Swift.String, Swift.Codable {
   case replay
   case live
@@ -251,7 +253,6 @@ extension StreamingTagSwift.eStatReachability {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class StreamingTagger {
-  @objc deinit
   public func setConsentString(consentString: Swift.String) -> Self
   public func setCast(isCasting: Swift.Bool) -> Self
   public func setMediaDiffMode(mediaDiffMode: Swift.String) -> Self
@@ -281,6 +282,7 @@ extension StreamingTagSwift.eStatReachability {
   public func setMultiLevel10(multiLevel10: Swift.String) -> Self
   @available(*, deprecated, renamed: "setMultiLevels()", message: "MultiLevel1 to MultiLevel11 are deprecated in favor of MultiLevels, which is not limited to 11 levels")
   public func setMultiLevel11(multiLevel11: Swift.String) -> Self
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LiveProbeStreamingTaggerBuilder : StreamingTagSwift.StreamingTaggerBuilder {
   public func withPlayerStateCallback(playerStateCallback: @escaping () -> StreamingTagSwift.EventState) -> Self
