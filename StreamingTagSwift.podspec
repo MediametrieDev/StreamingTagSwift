@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.author           = { 'Mediametrie' => 'support-mesure@mediametrie.fr' }
   s.source           = { :git => 'https://github.com/MediametrieDev/StreamingTagSwift.git', :tag => s.version, :branch => "master"  }
   s.vendored_frameworks = 'StreamingTagSwift.xcframework'
-  s.ios.deployment_target = '10.2'
-  s.tvos.deployment_target = '10.2'
+  s.ios.deployment_target = '11'
+  s.tvos.deployment_target = '11'
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
