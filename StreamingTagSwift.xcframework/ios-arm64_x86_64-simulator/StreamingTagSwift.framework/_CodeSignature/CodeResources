@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/StreamingTagSwift-Swift.h</key>
 		<data>
-		/a/aMugMAENCOp7nuH5hO9LY+Ro=
+		jWFSxd7kYxBCsDWMwamI0JqVPpg=
 		</data>
 		<key>Headers/StreamingTagSwift.h</key>
 		<data>
@@ -14,51 +14,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZMq4KsDHClCgCCgey/xA/KfsnwM=
-		</data>
-		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
-		<data>
-		WampSIk6Asni4YhhkNzTgRIQnEo=
-		</data>
-		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		+XXr/T2memPzuvI8Wrah83sP87I=
+		PdYt8R3fbhxyMLf4wpkRTR8t0j4=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		R54Z2AcsJZt+TZacHZz/XQxYv/A=
+		Qhg90RCULeT8G82A3MiqkpKtNHE=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+XXr/T2memPzuvI8Wrah83sP87I=
+		o3CQMUYQIXzLbWKgaBH1ADwiGao=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		b9+syFu/HGVdsZM0uX1YCfXXNJw=
-		</data>
-		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		WampSIk6Asni4YhhkNzTgRIQnEo=
-		</data>
-		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		7JRLO6x1opl0FA6GbVFrrw4BPR4=
+		V2xiWyDbFXhUOb6teoaHxSSxdfM=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ZslHc7k1oUJPRp3rymhkljFFuC0=
+		1hDYfEjC+mc3poZt1IvoHkRuiO0=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7JRLO6x1opl0FA6GbVFrrw4BPR4=
+		/ddxBe+EB/Z8UxFZW4at8PhCiXc=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		e296/QkBPYgeswQohOIn5cCaP4M=
+		hDcDhlA7yKkB72WWOnZlDZSlKKo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		gJS4M7mKdz79BNDdqr5L81e6w80=
+		EwlCv8UJ9BAmJ/65gdDwGqoA7uE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/a/aMugMAENCOp7nuH5hO9LY+Ro=
+			jWFSxd7kYxBCsDWMwamI0JqVPpg=
 			</data>
 			<key>hash2</key>
 			<data>
-			hoPgaMwtmwti58oTPBE+k0e78v3CIp5OiRBZXH/u4zU=
+			hQ2t6aqwRpV6OGZY8hze5PbxZ+m8Xwq9yr4Dg6pd3Cc=
 			</data>
 		</dict>
 		<key>Headers/StreamingTagSwift.h</key>
@@ -85,125 +69,81 @@
 			w2X9fptxbpILC71u7NwwbWhc9FJqVPPVYqn0fQBCSJo=
 			</data>
 		</dict>
-		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WampSIk6Asni4YhhkNzTgRIQnEo=
-			</data>
-			<key>hash2</key>
-			<data>
-			6DOOQpNuiH6chcDTHdVWNmD7bWPjHsR9A272JhdWLDE=
-			</data>
-		</dict>
-		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+XXr/T2memPzuvI8Wrah83sP87I=
-			</data>
-			<key>hash2</key>
-			<data>
-			gCK406WUU+fgX/0BJyigAtwnU4aDSHddyJYLUD0Swv4=
-			</data>
-		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R54Z2AcsJZt+TZacHZz/XQxYv/A=
+			Qhg90RCULeT8G82A3MiqkpKtNHE=
 			</data>
 			<key>hash2</key>
 			<data>
-			tltAQqWqYJlXRPEP+QDP/Yr/nL59kDs3Eu8cuTiUKP4=
+			8M6XVSIGcLGNhxLeYEkJIFJNp5rCwo8l5E8GaMrwWW8=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+XXr/T2memPzuvI8Wrah83sP87I=
+			o3CQMUYQIXzLbWKgaBH1ADwiGao=
 			</data>
 			<key>hash2</key>
 			<data>
-			gCK406WUU+fgX/0BJyigAtwnU4aDSHddyJYLUD0Swv4=
+			fJhB/GLplo4DLn46H+9XIy78rt1l0Kfn8yRtQbX9qK0=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			b9+syFu/HGVdsZM0uX1YCfXXNJw=
+			V2xiWyDbFXhUOb6teoaHxSSxdfM=
 			</data>
 			<key>hash2</key>
 			<data>
-			nZV1gWuEXVwQe7QZWCczluSAOH/nIsWEit21psKgiiE=
-			</data>
-		</dict>
-		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WampSIk6Asni4YhhkNzTgRIQnEo=
-			</data>
-			<key>hash2</key>
-			<data>
-			6DOOQpNuiH6chcDTHdVWNmD7bWPjHsR9A272JhdWLDE=
-			</data>
-		</dict>
-		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7JRLO6x1opl0FA6GbVFrrw4BPR4=
-			</data>
-			<key>hash2</key>
-			<data>
-			8kuEt34OLPJIYq0587XW56rt3cLBzn9E7vvMbgspXag=
+			vnvU1l1cgsGYalwKP1SAVFeA7B3h2if1nUE1x5Lx4sQ=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZslHc7k1oUJPRp3rymhkljFFuC0=
+			1hDYfEjC+mc3poZt1IvoHkRuiO0=
 			</data>
 			<key>hash2</key>
 			<data>
-			YWaF09TIB2U2FxDGFhggV95QssZcKfdMLzUg1WMEZI0=
+			zXMd9l+iFquHu5CR7BdGAHEyAztVP+8NWyoZ6a8U9yM=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7JRLO6x1opl0FA6GbVFrrw4BPR4=
+			/ddxBe+EB/Z8UxFZW4at8PhCiXc=
 			</data>
 			<key>hash2</key>
 			<data>
-			8kuEt34OLPJIYq0587XW56rt3cLBzn9E7vvMbgspXag=
+			bqz5NnxSjZ8lDGtFENzfmxprdg7B7deIEi1yop1+IxU=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e296/QkBPYgeswQohOIn5cCaP4M=
+			hDcDhlA7yKkB72WWOnZlDZSlKKo=
 			</data>
 			<key>hash2</key>
 			<data>
-			6Pex9yXjkyOCfCC9Z1jtT2uNoFupd/cOdnuqtqz7KEA=
+			LqdcRL0pfO3kn/oea6NULKnljD42Ani4P+GsS0GP7a0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gJS4M7mKdz79BNDdqr5L81e6w80=
+			EwlCv8UJ9BAmJ/65gdDwGqoA7uE=
 			</data>
 			<key>hash2</key>
 			<data>
-			+0MZh7NfwDzPxel2E2SAvF+KoPz3j6DWkYH5GxhW+Y4=
+			rZ4GrooIC6yglxFFJikTwBoEhL3n3OS2QC8OiRrpenA=
 			</data>
 		</dict>
 	</dict>

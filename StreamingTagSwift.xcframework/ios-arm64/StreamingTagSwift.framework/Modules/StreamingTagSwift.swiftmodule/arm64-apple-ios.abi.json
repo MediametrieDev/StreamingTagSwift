@@ -6363,39 +6363,6 @@
             "moduleName": "StreamingTagSwift"
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "StreamingTagSwift.TransmissionType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TransmissionType",
-                    "printedName": "StreamingTagSwift.TransmissionType",
-                    "usr": "s:17StreamingTagSwift16TransmissionTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:17StreamingTagSwift16TransmissionTypeO8rawValueACSgSS_tcfc",
-            "mangledName": "$s17StreamingTagSwift16TransmissionTypeO8rawValueACSgSS_tcfc",
-            "moduleName": "StreamingTagSwift",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Var",
             "name": "rawValue",
             "printedName": "rawValue",
@@ -6433,6 +6400,39 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "StreamingTagSwift.TransmissionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransmissionType",
+                    "printedName": "StreamingTagSwift.TransmissionType",
+                    "usr": "s:17StreamingTagSwift16TransmissionTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17StreamingTagSwift16TransmissionTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s17StreamingTagSwift16TransmissionTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "StreamingTagSwift",
+            "implicit": true,
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Enum",
@@ -6757,357 +6757,3024 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/StreamingEvent.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/ConfigurationValidator\/BuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 59,
+      "value": "\"Streaming Tag creation failed : you must provide a serial\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/ConfigurationValidator\/BuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 513,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/ConfigurationValidator\/BuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 615,
+      "length": 73,
+      "value": "\"Streaming Tag creation failed : you must provide the name of the stream\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/ConfigurationValidator\/BuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 715,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/ConfigurationValidator\/BuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 820,
+      "length": 80,
+      "value": "\"Streaming Tag creation failed : you must provide the media provider of the app\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/ConfigurationValidator\/BuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 927,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/ConfigurationValidator\/BuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 1032,
+      "length": 69,
+      "value": "\"Streaming Tag creation failed : you must provide the streaming type\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/ConfigurationValidator\/BuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 1128,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/ConfigurationValidator\/BuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 1236,
+      "length": 70,
+      "value": "\"Streaming Tag creation failed : you must provide a position callback\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/ConfigurationValidator\/BuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 1333,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/ConfigurationValidator\/BuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 1444,
+      "length": 74,
+      "value": "\"Streaming Tag creation failed : you must provide a player state callback\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/ConfigurationValidator\/BuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 1545,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/ConfigurationValidator\/BuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 1648,
+      "length": 102,
+      "value": "\"Streaming Tag creation failed: you must specify the type of measure you want (optin|exempted|optout)\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/ConfigurationValidator\/BuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 1777,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/StreamingEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 78,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/ConfigurationValidator\/TagConfigurationValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 1021,
+      "length": 15,
+      "value": "\"mediaProvider\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 827,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 856,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 882,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1121,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1133,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1565,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1590,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1831,
+      "length": 31,
+      "value": "\"REPLAY PROBE BEHAVIOR disable\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1947,
+      "length": 30,
+      "value": "\"REPLAY PROBE BEHAVIOR SNOOZE\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2086,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 2281,
+      "length": 30,
+      "value": "\"REPLAH PROBE BEHAVIOR WAKEUP\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2412,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2424,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2662,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "FloatLiteral",
+      "offset": 2760,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2787,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2811,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2846,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3122,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3394,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3522,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3571,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/ReplayProbeBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3727,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/ManualStreamingTagger\/ReplayStreamingTagger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/DisconnectedHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 320,
+      "length": 15,
+      "value": "\"savedRequests\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/DisconnectedHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 12,
+      "value": "\"append hit\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/DisconnectedHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 577,
+      "length": 23,
+      "value": "\"create array with hit\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/DisconnectedHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 767,
+      "length": 42,
+      "value": "\" we are not connected so we memorize hit\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/DisconnectedHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 937,
+      "length": 15,
+      "value": "\"savedRequests\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 527,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
       "kind": "Array",
       "offset": 570,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1540,
+      "length": 15,
+      "value": "\"session start\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1811,
+      "length": 30,
+      "value": "\"Start sending Saved Requests\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1908,
+      "length": 15,
+      "value": "\"savedRequests\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2033,
+      "length": 39,
+      "value": "\"iterate on requests \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2071,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3287,
+      "length": 34,
+      "value": "\"providedRequest ----> \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3320,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "Dictionary",
+      "offset": 3401,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4644,
+      "length": 74,
+      "value": "\"sessionGroupedGeneratedRequests ----> \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4717,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4757,
+      "length": 23,
+      "value": "\"remove saved requests\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4833,
+      "length": 15,
+      "value": "\"savedRequests\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5098,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5312,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5586,
+      "length": 23,
+      "value": "\"Finished Auth Request\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6358,
+      "length": 48,
+      "value": "\"SEND Online Enqued Hit ----> \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6405,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "Array",
+      "offset": 6474,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7083,
+      "length": 16,
+      "value": "\">> ANALYSE HIT\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7115,
+      "length": 47,
+      "value": "\"     providedWithAccess \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7161,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7178,
+      "length": 49,
+      "value": "\"     generatedWithAccess \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7226,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7481,
+      "length": 30,
+      "value": "\"     > SEND DISCONNECTED HIT\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7593,
+      "length": 44,
+      "value": "\"     > Won't send hit because it is denied\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7875,
+      "length": 14,
+      "value": "\"reachability\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/DisconnectedModeHandler.swift",
+      "kind": "Array",
+      "offset": 8143,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
       "kind": "Array",
       "offset": 150,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 690,
+      "length": 28,
+      "value": "\"POLLING notifyevent case 1\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 829,
+      "length": 28,
+      "value": "\"POLLING notifyevent case 2\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1074,
+      "length": 17,
+      "value": "\"POLLING DISABLE\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1277,
+      "length": 16,
+      "value": "\"POLLING WAKEUP\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1400,
+      "length": 15,
+      "value": "\"Start polling\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1479,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1520,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1561,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1602,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
       "kind": "BooleanLiteral",
-      "offset": 1805,
+      "offset": 1615,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1740,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1873,
+      "length": 40,
+      "value": "\"polling hit send with delay : \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1912,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2290,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2893,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 3341,
+      "length": 14,
+      "value": "\"Stop polling\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 3371,
+      "length": 15,
+      "value": "\"cancel timers\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/PollingBehavior.swift",
+      "kind": "Array",
+      "offset": 3479,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/ReplayBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 603,
+      "length": 27,
+      "value": "\"REPLAY notifyevent(event)\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/ReplayBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 726,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/ReplayBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 59,
+      "value": "\"old state :\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/ReplayBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 843,
+      "length": 1,
+      "value": "\", current state : \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/ReplayBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 874,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/ReplayBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1009,
+      "length": 35,
+      "value": "\"can only have a stop after a play\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/ReplayBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1188,
+      "length": 33,
+      "value": "\"cannot have twice \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/ReplayBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1220,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/ReplayBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1961,
+      "length": 16,
+      "value": "\"REPLAY DISABLE\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/ReplayBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 2097,
+      "length": 15,
+      "value": "\"REPLAY SNOOZE\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/ReplayBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 2192,
+      "length": 16,
+      "value": "\"REPLAY WAKE UP\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 792,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1049,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1061,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1199,
+      "length": 31,
+      "value": "\"PROBE LIVE notifyevent(event)\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1360,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1505,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1632,
+      "length": 86,
+      "value": "\"WARNING: the notifyPlayer() cannot be called with play or pause in an automatic mode\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 2119,
+      "length": 28,
+      "value": "\"LIVE PROBE BEHAVIOR SNOOZE\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2216,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2242,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 2460,
+      "length": 28,
+      "value": "\"LIVE PROBE BEHAVIOR WAKEUP\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2587,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2599,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3041,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3117,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3296,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/probe\/LiveProbeBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3372,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
       "kind": "IntegerLiteral",
       "offset": 74,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
       "kind": "IntegerLiteral",
       "offset": 93,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
       "kind": "IntegerLiteral",
       "offset": 111,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
       "kind": "IntegerLiteral",
       "offset": 74,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
       "kind": "IntegerLiteral",
       "offset": 93,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
       "kind": "IntegerLiteral",
       "offset": 111,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
       "kind": "IntegerLiteral",
       "offset": 74,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
       "kind": "IntegerLiteral",
       "offset": 93,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/EventState.swift",
       "kind": "IntegerLiteral",
       "offset": 111,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/HitReducer.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/HitReducer.swift",
       "kind": "BooleanLiteral",
       "offset": 270,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/TimeShiftingBehavior.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/HitReducer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 545,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/HitReducer.swift",
+      "kind": "FloatLiteral",
+      "offset": 916,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/HitReducer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 930,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/HitReducer.swift",
+      "kind": "StringLiteral",
+      "offset": 977,
+      "length": 30,
+      "value": "\"[Hit reducer] End of reducer\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/HitReducer.swift",
+      "kind": "StringLiteral",
+      "offset": 1222,
+      "length": 44,
+      "value": "\"[Hit reducer] ... send last hit with state\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/HitReducer.swift",
+      "kind": "StringLiteral",
+      "offset": 1324,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/HitReducer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1716,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/TimeShiftingBehavior.swift",
       "kind": "BooleanLiteral",
       "offset": 254,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/TimeShiftingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1164,
+      "length": 33,
+      "value": "\"TIMESHIFTING notifyevent(event)\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/TimeShiftingBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1315,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/TimeShiftingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1436,
+      "length": 33,
+      "value": "\"TIMESHIFTING on est en livemode\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/TimeShiftingBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1541,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/TimeShiftingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1792,
+      "length": 37,
+      "value": "\"TIMESHIFTING on est pas en livemode\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/TimeShiftingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1890,
+      "length": 44,
+      "value": "\"TIMESHIFTING STOP : on repasse en livemode\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/TimeShiftingBehavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1968,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/TimeShiftingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 2128,
+      "length": 19,
+      "value": "\"TIMESHIFTING STOP\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/TimeShiftingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 2263,
+      "length": 22,
+      "value": "\"TIMESHIFTING DISABLE\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/TimeShiftingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 2406,
+      "length": 21,
+      "value": "\"TIMESHIFTING SNOOZE\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/TimeShiftingBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 2546,
+      "length": 22,
+      "value": "\"TIMESHIFTING WAKE UP\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
       "kind": "Dictionary",
       "offset": 205,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
       "kind": "Array",
       "offset": 372,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
       "kind": "BooleanLiteral",
       "offset": 558,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/SessionManager.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 614,
+      "length": 9,
+      "value": "\"tagName\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 669,
+      "length": 12,
+      "value": "\"tagVersion\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 761,
+      "length": 10,
+      "value": "\"deviceID\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 904,
+      "length": 19,
+      "value": "\"bpxl_uuid_account\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 999,
+      "length": 17,
+      "value": "\"try to get UUID\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1190,
+      "length": 29,
+      "value": "\"get UID from the keychain: \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1266,
+      "length": 8,
+      "value": "\"userID\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1576,
+      "length": 29,
+      "value": "\"store UID to the keychain: \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1782,
+      "length": 8,
+      "value": "\"userID\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1875,
+      "length": 12,
+      "value": "\"bundleName\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1919,
+      "length": 14,
+      "value": "\"CFBundleName\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1949,
+      "length": 20,
+      "value": "\"(unknown app name)\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1995,
+      "length": 15,
+      "value": "\"bundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 2042,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 2086,
+      "length": 23,
+      "value": "\"(unknown app version)\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 2220,
+      "length": 12,
+      "value": "\"deviceType\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 2234,
+      "length": 6,
+      "value": "\"ipad\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 2288,
+      "length": 12,
+      "value": "\"deviceType\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 2302,
+      "length": 4,
+      "value": "\"tv\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 2353,
+      "length": 12,
+      "value": "\"deviceType\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 2367,
+      "length": 8,
+      "value": "\"iphone\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2807,
+      "length": 3,
+      "value": "132"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2813,
+      "length": 3,
+      "value": "163"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2868,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2904,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 2998,
+      "length": 14,
+      "value": "\"reachability\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 3053,
+      "length": 14,
+      "value": "\"reachability\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 3336,
+      "length": 14,
+      "value": "\"reachability\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 3445,
+      "length": 14,
+      "value": "\"reachability\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 3525,
+      "length": 19,
+      "value": "\"network reachable\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 3787,
+      "length": 18,
+      "value": "\"transmissionType\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 3903,
+      "length": 14,
+      "value": "\"reachability\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/EnvironmentDataProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 4033,
+      "length": 26,
+      "value": "\"Unable to start notifier\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/ManualStreamingTagger\/LiveStreamingTagger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 221,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/SessionManager.swift",
       "kind": "StringLiteral",
       "offset": 470,
       "length": 14,
       "value": "\"sessionQueue\""
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/SessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1691,
+      "length": 62,
+      "value": "\"call send(streamingEvent:StreamingEvent) from SessionManager\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/SessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2338,
+      "length": 8,
+      "value": "\"OPTOUT\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/EnvironmentDataProvider\/KeyChain.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1786,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
       "kind": "IntegerLiteral",
       "offset": 442,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
       "kind": "IntegerLiteral",
       "offset": 484,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
       "kind": "Array",
       "offset": 608,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
       "kind": "BooleanLiteral",
       "offset": 659,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
       "kind": "BooleanLiteral",
       "offset": 699,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Tag.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "kind": "StringLiteral",
+      "offset": 1416,
+      "length": 15,
+      "value": "\"session start\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "kind": "StringLiteral",
+      "offset": 1547,
+      "length": 40,
+      "value": "\"session started \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "kind": "StringLiteral",
+      "offset": 1586,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1726,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2266,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "kind": "StringLiteral",
+      "offset": 3265,
+      "length": 18,
+      "value": "\"transmissionType\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3566,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "kind": "StringLiteral",
+      "offset": 3733,
+      "length": 26,
+      "value": "\"     > SEND COMPACT MODE\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5785,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "kind": "StringLiteral",
+      "offset": 5895,
+      "length": 59,
+      "value": "\"Session terminate \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "kind": "StringLiteral",
+      "offset": 5953,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5977,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "kind": "StringLiteral",
+      "offset": 6020,
+      "length": 57,
+      "value": "\"Session destroy \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/SessionManager\/Session\/Session.swift",
+      "kind": "StringLiteral",
+      "offset": 6076,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Tag.swift",
       "kind": "StringLiteral",
       "offset": 281,
       "length": 7,
-      "value": "\"7.3.2\""
+      "value": "\"7.3.3\""
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Tag.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Tag.swift",
       "kind": "StringLiteral",
       "offset": 330,
       "length": 5,
       "value": "\"iOS\""
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Tag.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Tag.swift",
       "kind": "BooleanLiteral",
       "offset": 382,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Tag.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Tag.swift",
+      "kind": "BooleanLiteral",
+      "offset": 624,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Tag.swift",
       "kind": "BooleanLiteral",
       "offset": 710,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/UserInfoProvider\/UserInfoProvider.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/UserInfoProvider\/UserInfoProvider.swift",
       "kind": "IntegerLiteral",
       "offset": 524,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/UserInfoProvider\/UserInfoProvider.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/UserInfoProvider\/UserInfoProvider.swift",
       "kind": "Dictionary",
       "offset": 634,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/UserInfoProvider\/UserInfoProvider.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Providers\/UserInfoProvider\/UserInfoProvider.swift",
       "kind": "Array",
       "offset": 743,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
       "kind": "StringLiteral",
       "offset": 82,
       "length": 24,
       "value": "\"https:\/\/auth.estat.com\""
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 524,
+      "length": 30,
+      "value": "\"EEE, dd MM yyyy HH:mm:ss ZZZ\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 610,
+      "length": 13,
+      "value": "\"en_US_POSIX\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 639,
+      "length": 19,
+      "value": "\"call default Auth\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 21,
+      "value": "\"call specified Auth\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 1045,
+      "length": 21,
+      "value": "\"call specified Auth\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 27,
+      "value": "\"request new auth response\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 1488,
+      "length": 22,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 1499,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 1509,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 1537,
+      "length": 20,
+      "value": "\"Invalid Auth URL !\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "FloatLiteral",
+      "offset": 1765,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 1785,
+      "length": 50,
+      "value": "\"call auth at \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 1834,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 2018,
+      "length": 38,
+      "value": "\"error : \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 2055,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2196,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 2546,
+      "length": 6,
+      "value": "\"Date\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 2587,
+      "length": 6,
+      "value": "\"date\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 3239,
+      "length": 14,
+      "value": "\"reachability\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 3282,
+      "length": 108,
+      "value": "\"reachability status -----> \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 3372,
+      "length": 14,
+      "value": "\"reachability\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 3389,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/Auth.swift",
+      "kind": "StringLiteral",
+      "offset": 3453,
+      "length": 28,
+      "value": "\"reachability is nil ----->\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/LiveBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 742,
+      "length": 25,
+      "value": "\"LIVE notifyevent(event)\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/LiveBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 823,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/LiveBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 918,
+      "length": 59,
+      "value": "\"old state :\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/LiveBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 945,
+      "length": 1,
+      "value": "\", current state : \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/LiveBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 976,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/LiveBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1109,
+      "length": 35,
+      "value": "\"can only have a stop after a play\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/LiveBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1287,
+      "length": 33,
+      "value": "\"cannot have twice \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/LiveBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 1319,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/LiveBehavior.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1454,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/LiveBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 2021,
+      "length": 11,
+      "value": "\"LIVE STOP\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/LiveBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 2119,
+      "length": 14,
+      "value": "\"LIVE DISABLE\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/LiveBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 2253,
+      "length": 13,
+      "value": "\"LIVE SNOOZE\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Behaviors\/LiveBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 2346,
+      "length": 14,
+      "value": "\"LIVE WAKE UP\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/LiveStreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 29,
+      "value": "\"Live Streaming Builder Init\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
       "kind": "Dictionary",
       "offset": 252,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
       "kind": "Dictionary",
       "offset": 331,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
       "kind": "Dictionary",
       "offset": 376,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
       "kind": "IntegerLiteral",
       "offset": 558,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
       "kind": "Dictionary",
       "offset": 608,
       "length": 3251,
       "value": "[(\"streamName\", \"cmsSN\"), (\"streamCategory\", \"cmsGR\"), (\"playerName\", \"cmsPL\"), (\"mediaProvider\", \"dom\"), (\"level1\", \"cmsS3\"), (\"level2\", \"cmsS2\"), (\"level3\", \"cmsS1\"), (\"level4\", \"cmsS4\"), (\"level5\", \"cmsS5\"), (\"multiLevel1\", \"ml1\"), (\"multiLevel2\", \"ml2\"), (\"multiLevel3\", \"ml3\"), (\"multiLevel4\", \"ml4\"), (\"multiLevel5\", \"ml5\"), (\"multiLevel6\", \"ml6\"), (\"multiLevel7\", \"ml7\"), (\"multiLevel8\", \"ml8\"), (\"multiLevel9\", \"ml9\"), (\"multiLevel10\", \"ml10\"), (\"multiLevel11\", \"ml11\"), (\"multiLevels\", \"ml\"), (\"mediaContentId\", \"msCid\"), (\"mediaDiffMode\", \"msDm\"), (\"mediaChannel\", \"msCh\"), (\"netMeasurement\", \"miCh\"), (\"offset\", \"oft\"), (\"tagName\", \"tn\"), (\"reachability\", \"m_ntwk\"), (\"screenHeight\", \"sch\"), (\"screenWidth\", \"scw\"), (\"screenDepth\", \"scp\"), (\"cacheBreaker\", \"n\"), (\"previousPosition\", \"cmsOP\"), (\"position\", \"cmsPO\"), (\"duration\", \"cmsDU\"), (\"eventState\", \"cmsPS\"), (\"eventType\", \"cmsEV\"), (\"sessionId\", \"cmsVI\"), (\"rank\", \"cmsRK\"), (\"transmissionType\", \"tt\"), (\"isCasting\", \"cs\"), (\"userID\", \"uid\"), (\"deviceID\", \"did\"), (\"tagVersion\", \"v\"), (\"consentType\", \"ct\"), (\"consentString\", \"cstr\"), (\"consommationTimestamp\", \"ts\")]"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 5800,
+      "length": 14,
+      "value": "\"reachability\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 6388,
+      "length": 14,
+      "value": "\"cacheBreaker\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6428,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6432,
+      "length": 10,
+      "value": "1000000000"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 6485,
+      "length": 10,
+      "value": "\"position\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 6600,
+      "length": 8,
+      "value": "\"offset\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 6674,
+      "length": 18,
+      "value": "\"previousPosition\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 6742,
+      "length": 10,
+      "value": "\"duration\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 6798,
+      "length": 12,
+      "value": "\"eventState\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 6878,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 6956,
+      "length": 11,
+      "value": "\"sessionId\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 7011,
+      "length": 6,
+      "value": "\"rank\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 7055,
+      "length": 12,
+      "value": "\"streamName\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 7111,
+      "length": 13,
+      "value": "\"consentType\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 7178,
+      "length": 23,
+      "value": "\"consommationTimestamp\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 7253,
+      "length": 6,
+      "value": "\"%.0f\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 7287,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 7521,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "Array",
+      "offset": 7564,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 8095,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 8122,
+      "length": 10,
+      "value": "\"deviceID\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 8158,
+      "length": 8,
+      "value": "\"userID\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 8469,
+      "length": 12,
+      "value": "\"playerName\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 8535,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "StringLiteral",
+      "offset": 8745,
+      "length": 4,
+      "value": "\"ml\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/Hit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8759,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1108,
+      "length": 15,
+      "value": "\"consentString\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 11,
+      "value": "\"isCasting\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1288,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1356,
+      "length": 11,
+      "value": "\"isCasting\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1500,
+      "length": 16,
+      "value": "\"streamCategory\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1654,
+      "length": 15,
+      "value": "\"mediaProvider\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1792,
+      "length": 8,
+      "value": "\"level1\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1916,
+      "length": 8,
+      "value": "\"level2\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2040,
+      "length": 8,
+      "value": "\"level3\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2160,
+      "length": 8,
+      "value": "\"level4\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2284,
+      "length": 8,
+      "value": "\"level5\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2999,
+      "length": 13,
+      "value": "\"multiLevel1\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 3315,
+      "length": 13,
+      "value": "\"multiLevel2\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 3631,
+      "length": 13,
+      "value": "\"multiLevel3\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 3947,
+      "length": 13,
+      "value": "\"multiLevel4\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 4263,
+      "length": 13,
+      "value": "\"multiLevel5\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 4579,
+      "length": 13,
+      "value": "\"multiLevel6\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 4895,
+      "length": 13,
+      "value": "\"multiLevel7\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 5211,
+      "length": 13,
+      "value": "\"multiLevel8\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 5527,
+      "length": 13,
+      "value": "\"multiLevel9\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 5845,
+      "length": 14,
+      "value": "\"multiLevel10\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 6165,
+      "length": 14,
+      "value": "\"multiLevel11\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 6317,
+      "length": 16,
+      "value": "\"mediaContentId\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 6471,
+      "length": 15,
+      "value": "\"mediaDiffMode\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 6621,
+      "length": 14,
+      "value": "\"mediaChannel\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/StreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 6773,
+      "length": 16,
+      "value": "\"netMeasurement\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
       "kind": "StringLiteral",
       "offset": 80,
       "length": 43,
       "value": "\"https:\/\/mesure.streaming.estat.com\/m\/web\/\""
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
       "kind": "StringLiteral",
       "offset": 160,
       "length": 28,
       "value": "\"https:\/\/c.estat.com\/m\/web\/\""
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 223,
       "length": 18,
       "value": "638111881101312000"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1136,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1301,
+      "length": 29,
+      "value": "\"INIT FALLBACK AUTH RESPONSE\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1346,
+      "length": 23,
+      "value": "\" - access : \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1368,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1385,
+      "length": 19,
+      "value": "\" - host : \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1403,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1420,
+      "length": 21,
+      "value": "\" - cmsVI : \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1440,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1457,
+      "length": 39,
+      "value": "\" - ResponseType : \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1495,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1642,
+      "length": 3,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1756,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1916,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1969,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2145,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2181,
+      "length": 4,
+      "value": "\"\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2193,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2430,
+      "length": 21,
+      "value": "\"GET INFOS FROM AUTH\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2467,
+      "length": 23,
+      "value": "\" - access : \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2489,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2506,
+      "length": 34,
+      "value": "\" - host : \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2539,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2556,
+      "length": 21,
+      "value": "\" - cmsVI : \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2576,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2593,
+      "length": 39,
+      "value": "\" - ResponseType : \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2631,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2648,
+      "length": 49,
+      "value": "\" - AuthServerTimestamp : \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Auth\/AuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2696,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/ReplayStreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 31,
+      "value": "\"Replay Streaming Builder Init\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
       "kind": "StringLiteral",
       "offset": 1766,
       "length": 33,
       "value": "\"ReachabilityChangedNotification\""
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
       "kind": "StringLiteral",
       "offset": 1894,
       "length": 21,
       "value": "\"reachabilityChanged\""
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 2366,
+      "length": 10,
+      "value": "\"Cellular\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 2408,
+      "length": 6,
+      "value": "\"WiFi\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 2453,
+      "length": 15,
+      "value": "\"No Connection\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 2500,
+      "length": 13,
+      "value": "\"unavailable\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
       "kind": "BooleanLiteral",
       "offset": 2760,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 3243,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 3257,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
       "kind": "BooleanLiteral",
       "offset": 3948,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
       "kind": "BooleanLiteral",
       "offset": 4024,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/NetworkHitSender.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4688,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 4800,
+      "length": 32,
+      "value": "\"uk.co.ashleymills.reachability\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7394,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 8401,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9026,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9102,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 9941,
+      "length": 19,
+      "value": "\"unavailable flags\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13025,
+      "length": 3,
+      "value": "\"W\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13031,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13072,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13078,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13128,
+      "length": 3,
+      "value": "\"c\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13134,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13185,
+      "length": 3,
+      "value": "\"t\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13191,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13243,
+      "length": 3,
+      "value": "\"i\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13249,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13300,
+      "length": 3,
+      "value": "\"C\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13306,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13356,
+      "length": 3,
+      "value": "\"D\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13362,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13406,
+      "length": 3,
+      "value": "\"l\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13412,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13450,
+      "length": 3,
+      "value": "\"d\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13456,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13484,
+      "length": 39,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13489,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13493,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13498,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13502,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13506,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13510,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13514,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13518,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Utils\/eStatReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 13522,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/ProbeStreamingTaggerBuilder\/ReplayProbeStreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 37,
+      "value": "\"Replay Probe Streaming Builder Init\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 1026,
+      "length": 67,
+      "value": "\"streamingType, serial, consentType and streamName are mondatory !\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2377,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2689,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 4608,
+      "length": 15,
+      "value": "\"consentString\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 4837,
+      "length": 11,
+      "value": "\"isCasting\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 4852,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 4943,
+      "length": 11,
+      "value": "\"isCasting\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 5161,
+      "length": 15,
+      "value": "\"mediaDiffMode\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 5387,
+      "length": 16,
+      "value": "\"mediaContentId\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 5615,
+      "length": 14,
+      "value": "\"mediaChannel\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 5843,
+      "length": 16,
+      "value": "\"netMeasurement\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 6424,
+      "length": 13,
+      "value": "\"multiLevel1\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 6805,
+      "length": 13,
+      "value": "\"multiLevel2\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 7186,
+      "length": 13,
+      "value": "\"multiLevel3\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 7567,
+      "length": 13,
+      "value": "\"multiLevel4\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 7948,
+      "length": 13,
+      "value": "\"multiLevel5\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 8329,
+      "length": 13,
+      "value": "\"multiLevel6\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 8710,
+      "length": 13,
+      "value": "\"multiLevel7\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 9091,
+      "length": 13,
+      "value": "\"multiLevel8\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 9472,
+      "length": 13,
+      "value": "\"multiLevel9\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 9855,
+      "length": 14,
+      "value": "\"multiLevel10\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Taggers\/StreamingTagger.swift",
+      "kind": "StringLiteral",
+      "offset": 10240,
+      "length": 14,
+      "value": "\"multiLevel11\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/NetworkHitSender.swift",
       "kind": "StringLiteral",
       "offset": 105,
       "length": 14,
       "value": "\"sessionQueue\""
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/TransmissionType.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/NetworkHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 12,
+      "value": "\"bundleName\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/NetworkHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 320,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/NetworkHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 15,
+      "value": "\"bundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/NetworkHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 412,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/NetworkHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 481,
+      "length": 12,
+      "value": "\"tagVersion\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/NetworkHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/NetworkHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 12,
+      "value": "\"deviceType\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/NetworkHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 584,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/NetworkHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 636,
+      "length": 30,
+      "value": "\"%@\/%@ eStat SDK v%@ apple %@\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/NetworkHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 759,
+      "length": 12,
+      "value": "\"User-Agent\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/NetworkHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 993,
+      "length": 37,
+      "value": "\"NetworkHitSender.sendHit() : \""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Hit\/HitSender\/NetworkHitSender.swift",
+      "kind": "StringLiteral",
+      "offset": 1029,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/TaggerBuilders\/ProbeStreamingTaggerBuilder\/LiveProbeStreamingTaggerBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 356,
+      "length": 35,
+      "value": "\"Live Probe Streaming Builder Init\""
+    },
+    {
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/TransmissionType.swift",
       "kind": "StringLiteral",
       "offset": 77,
       "length": 3,
       "value": "\"c\""
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/TransmissionType.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/TransmissionType.swift",
       "kind": "StringLiteral",
       "offset": 105,
       "length": 3,
       "value": "\"d\""
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/TransmissionType.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/TransmissionType.swift",
       "kind": "StringLiteral",
       "offset": 77,
       "length": 3,
       "value": "\"c\""
     },
     {
-      "filePath": "\/Users\/adminlocal\/Documents\/dev\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/TransmissionType.swift",
+      "filePath": "\/Users\/adminlocal\/Documents\/Workspace\/streaming-tag-ios\/StreamingTagSwift\/StreamingTagSwift\/Tag\/Enum\/TransmissionType.swift",
       "kind": "StringLiteral",
       "offset": 105,
       "length": 3,

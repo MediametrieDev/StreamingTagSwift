@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/StreamingTagSwift-Swift.h</key>
 		<data>
-		bdjFJMwHzPnxW6Wq962+UskPp/Y=
+		PLHgnC6r105xcCvzavm79c4mCvU=
 		</data>
 		<key>Headers/StreamingTagSwift.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uTohdoF5D/gKJsja2twpDwcwK98=
+		fgrSuRiIBX7su8ayWh+BO9hhkN4=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		cVZGo/ycQ+z8te4HS/BlriGStPs=
+		ruAiJsVJy6d0zOFYfCGT1O/x4eA=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		+m6zlzMmQ/h1p01QoUf9vBzg5jc=
+		PasZDbBxQ78Ef4B3XWYFgqTaH2g=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		vgnRqc+t4b8TyBlmFC8AW6GzxNI=
+		Sg+EbRvM6D2nD5Y76khuj4pF3LA=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+m6zlzMmQ/h1p01QoUf9vBzg5jc=
+		PasZDbBxQ78Ef4B3XWYFgqTaH2g=
 		</data>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		2r2sGN1uaVr2ce0UIY6rQLMhXVU=
+		IFqbvbOnoz2RMokhPEA3dPhwlyU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,11 +47,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bdjFJMwHzPnxW6Wq962+UskPp/Y=
+			PLHgnC6r105xcCvzavm79c4mCvU=
 			</data>
 			<key>hash2</key>
 			<data>
-			OP3JUIcBeWX+e/0GkbZYWlmKKqNEHlD8dfg7TxZ6xFo=
+			WC0q+C5ufElOlIJzrSVNb2hW6Nz1xAuQySqlAbGgI84=
 			</data>
 		</dict>
 		<key>Headers/StreamingTagSwift.h</key>
@@ -69,55 +69,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cVZGo/ycQ+z8te4HS/BlriGStPs=
+			ruAiJsVJy6d0zOFYfCGT1O/x4eA=
 			</data>
 			<key>hash2</key>
 			<data>
-			PZVCQKbzxQRJVWcc7kCCiquJXWMPvBoi97oazQeFsrc=
+			FZnXf+f/UMAKfU1jLdz4mCpwLzHC9ehN2BLlSslmSlc=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+m6zlzMmQ/h1p01QoUf9vBzg5jc=
+			PasZDbBxQ78Ef4B3XWYFgqTaH2g=
 			</data>
 			<key>hash2</key>
 			<data>
-			uwmFpR3XEhqflRmeY34Nhzoo9gEfliMUSt05wH4Ujng=
+			P0gGlF3rNOYNDRyoCCcOMHgycOTCuv93DMteHSJbL/s=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vgnRqc+t4b8TyBlmFC8AW6GzxNI=
+			Sg+EbRvM6D2nD5Y76khuj4pF3LA=
 			</data>
 			<key>hash2</key>
 			<data>
-			L6/HOf/BP/N9sWkqdXHL6nQg0o2R4zBmXyE6iIb1sXc=
+			hMyY9aL5lYfUrWJE7TxaNXSJUEKIh2U3n9zK/jTDqEA=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+m6zlzMmQ/h1p01QoUf9vBzg5jc=
+			PasZDbBxQ78Ef4B3XWYFgqTaH2g=
 			</data>
 			<key>hash2</key>
 			<data>
-			uwmFpR3XEhqflRmeY34Nhzoo9gEfliMUSt05wH4Ujng=
+			P0gGlF3rNOYNDRyoCCcOMHgycOTCuv93DMteHSJbL/s=
 			</data>
 		</dict>
 		<key>Modules/StreamingTagSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2r2sGN1uaVr2ce0UIY6rQLMhXVU=
+			IFqbvbOnoz2RMokhPEA3dPhwlyU=
 			</data>
 			<key>hash2</key>
 			<data>
-			roiBxfXKG+wL3APP8lKOqvtKbO0kEjLUAkKOijNsSwc=
+			P7gT+UXkIenJFEFaOiFY3PJGGcgSLm0sOt4laeEBfXA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
